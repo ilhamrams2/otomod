@@ -1,0 +1,81 @@
+.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0;
+    transition: 0.9s
+        /* Menghilangkan margin yang menyebabkan dropdown berjarak dari button */
+}
+
+#example th {
+    background-color: #f8f9fa !important;
+    /* Ubah warna background th menjadi bg-light */
+}
+
+#example td {
+    background-color: #ffffff !important;
+    /* Ubah warna background td */
+    text-align: center;
+    /* Pusatkan teks secara horizontal */
+}
+
+#example th,
+#example td {
+    text-align: center;
+    /* Pusatkan teks secara horizontal */
+    vertical-align: middle;
+    /* Pusatkan konten secara vertikal */
+}
+
+table.dataTable.table.table-striped>tbody>tr:nth-of-type(2n+1)>* {
+    box-shadow: inset 0 0 0 9999px rgb(255 255 255 / 5%);
+}
+.custom-modal .modal-dialog {
+    max-width: 500px;
+}
+
+.custom-modal .modal-content {
+    /* background: linear-gradient(120deg, #17a2b8, #c2e9fb); */
+    background-color: #17a2b8;
+    border: none;
+    border-radius: 15px;
+    color: white !important;
+    text-align: center;
+    padding: 20px;
+}
+
+.custom-modal .modal-header {
+    border: none;
+    padding-bottom: 0;
+}
+
+.custom-modal .modal-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.custom-modal .modal-body {
+    font-size: 1rem;
+    color: #ffffff;
+    margin-bottom: 20px;
+}
+
+.custom-modal .btn-custom {
+    background-color: #1dbf73;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 25px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.custom-modal .btn-custom:hover {
+    background-color: #169c5b;
+}
+
+.custom-modal .icon {
+    font-size: 4rem;
+    color: #1dbf73;
+}

@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Oswald", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.r-landing .badge {
+    padding: 5px !important;
+    font-size: 12px !important;
+}
+
+.r-content-one .badge {
+    padding: 5px !important;
+    font-size: 10px !important;
+    font-weight: 200;
+}
+
+.r-content-one .badge img {
+    width: 10px;
+    height: 10px;
+    object-fit: cover;
+}
+
+.r-content-one .img-berita-random {
+    height: 112px !important;
+}
+
+.r-content-one .img-berita-random img {
+    width: 100% !important;
+    height: 100px !important;
+    object-fit: cover !important;
+    object-position: center !important;
+}
+
