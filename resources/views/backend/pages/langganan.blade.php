@@ -1,4 +1,4 @@
-@extends('BackEnd.backend')
+@extends('backend.backend')
 
 @section('title', 'Langganan')
 

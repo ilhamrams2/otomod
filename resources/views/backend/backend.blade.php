@@ -40,9 +40,9 @@
                 height="60" width="60">
         </div> --}}
         {{-- navbar --}}
-        @include('BackEnd.layouts.navbar')
+        @include('backend.layouts.navbar')
         {{-- sidebar --}}
-        @include('BackEnd.layouts.sidebar')
+        @include('backend.layouts.sidebar')
 
 
         <!-- Content Wrapper. Contains page content -->
@@ -54,7 +54,7 @@
         <!-- /.content-wrapper -->
 
         {{-- footer --}}
-        @include('BackEnd.layouts.footer')
+        @include('backend.layouts.footer')
 
     </div>
     <!-- ./wrapper -->
